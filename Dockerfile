@@ -1,4 +1,5 @@
-FROM python:3.9.13-slim
+ARG VERSION
+FROM python:${VERSION}-slim
 LABEL maintainer = "marcus.rickert@web.de"
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive \
