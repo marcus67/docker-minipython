@@ -1,2 +1,2 @@
-export VERSION=3.10.9
-export VERSION_TAG=release-${VERSION}
+export VERSION=3.11.9
+export VERSION_TAG=${VERSION}
